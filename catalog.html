@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo" href="index.html">
-          <img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
+        <img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
         </a>
         <ul class="site-navigation">
           <li><a href="info.html">Информация</a></li>
@@ -26,7 +27,6 @@
         </ul>
       </nav>
     </header>
-    
     <main class="container">
       <h1 class="page-title">Cредства для ухода</h1>
       <ul class="breadcrumbs">
@@ -86,7 +86,6 @@
           <button type="submit" class="filter-button button">Показать</button>
         </form>
       </section>
-      
       <section class="catalog">
         <h2 class="visually-hidden">Список средств для ухода</h2>
         <ul class="catalog-list">
@@ -97,7 +96,7 @@
                 <span class="catalog-item-title">«Baxter of California»</span>
               </h3>
               <p class="catalog-item-image">
-                <img src="img/product-1.jpg" width="220" height="165" alt="Набор для путешествий «Baxter of California»">
+                <img src="img/travel-small.jpg" width="220" height="165" alt="Набор для путешествий «Baxter of California»">
               </p>
             </a>
             <p class="catalog-item-price">
@@ -112,7 +111,7 @@
                 <span class="catalog-item-title">«Baxter of California»</span>
               </h3>
               <p class="catalog-item-image">
-                <img src="img/product-2.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
+                <img src="img/cond.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
               </p>
             </a>
             <p class="catalog-item-price">
@@ -127,7 +126,7 @@
                 <span class="catalog-item-title">«Suavecito»</span>
               </h3>
               <p class="catalog-item-image">
-                <img src="img/product-3.jpg" width="220" height="165" alt="Гель для волос «Suavecito»">
+                <img src="img/crew-gel.jpg" width="220" height="165" alt="Гель для волос «Suavecito»">
               </p>
             </a>
             <p class="catalog-item-price">
@@ -142,7 +141,7 @@
                 <span class="catalog-item-title">«American crew»</span>
               </h3>
               <p class="catalog-item-image">
-                <img src="img/product-4.jpg" width="220" height="165" alt="Глина для укладки волос «American crew»">
+                <img src="img/clay.jpg" width="220" height="165" alt="Глина для укладки волос «American crew»">
               </p>
             </a>
             <p class="catalog-item-price">
@@ -157,7 +156,7 @@
                 <span class="catalog-item-title">«American crew»</span>
               </h3>
               <p class="catalog-item-image">
-                <img src="img/product-5.jpg" width="220" height="165" alt="Гель для волос «American crew»">
+                <img src="img/crew-gel.jpg" width="220" height="165" alt="Гель для волос «American crew»">
               </p>
             </a>
             <p class="catalog-item-price">
@@ -172,7 +171,7 @@
                 <span class="catalog-item-title">«Baxter of California»</span>
               </h3>
               <p class="catalog-item-image">
-                <img src="img/product-6.jpg" width="220" height="165" alt="Набор для бритья «Baxter of California»">
+                <img src="img/shave.jpg" width="220" height="165" alt="Набор для бритья «Baxter of California»">
               </p>
             </a>
             <p class="catalog-item-price">
@@ -208,8 +207,7 @@
         <b>Разработано:</b> 
         <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
       </p>
-    </footer>  
-    
+    </footer>
     <section class="modal modal-login">
       <h2>Личный кабинет</h2>
       <p>Введите пожалуйста свой логин и пароль</p>
@@ -224,9 +222,9 @@
         </p>
         <p class="login-password-info">
           <label class="login-checkbox">
-            <input type="checkbox" name="remember" class="visually-hidden">
-            <span class="checkbox-indicator"></span>
-            Запомните меня
+          <input type="checkbox" name="remember" class="visually-hidden">
+          <span class="checkbox-indicator"></span>
+          Запомните меня
           </label>
           <a class="restore" href="#">Я забыл пароль!</a>
         </p>
@@ -234,7 +232,6 @@
       </form>
       <button class="modal-close" type="button">Закрыть</button>
     </section>
-    
     <section class="modal modal-map">
       <h2 class="visually-hidden">Как до нас добраться</h2>
       <p>
